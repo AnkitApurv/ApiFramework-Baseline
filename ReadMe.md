@@ -26,9 +26,9 @@ Speedup: __56.88 times__
 
 ## Reasons for speed improvement: impact % (in order of impact):
 
-1. Batching requests and responses (possible in baseline, but somewhat more difficult, GraphQL makes this easy): 60 %
-2. Async execution approach (needs both client and server to be modified to use this approach): 20 %
-3. Use of efficient data exchange standards (JSON instead of XML): 20 %
+1. Batching requests and responses (possible in baseline, but somewhat more difficult, GraphQL makes this easy): 50 %
+2. Use of efficient data exchange standards (JSON instead of XML): 30 %
+3. Async execution approach (needs both client and server to be modified to use this approach): 20 %
 
 Further speed-up is possible in new implementation: estimated impact % (in order of impact):
 
