@@ -1,0 +1,11 @@
+name: env-baselineapisite
+channels:
+ - defaults
+ - conda-forge
+dependencies:
+ - flask
+ - gevent
+ - pandas
+ - lxml
+ - joblib
+ - scikit-learn==0.22.1

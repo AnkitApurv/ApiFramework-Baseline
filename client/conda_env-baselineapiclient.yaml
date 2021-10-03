@@ -1,0 +1,9 @@
+name: env-baselineapiclient
+channels:
+  - default
+dependencies:
+  - pycurl
+  - pandas
+  - lxml
+  - pyarrow
+  - xlrd
