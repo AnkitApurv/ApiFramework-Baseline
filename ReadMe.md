@@ -32,4 +32,5 @@ Speedup: __56.88 times__
 
 Further speed-up is possible in new implementation: estimated impact % (in order of impact):
 
-1. Flexibility of sending and receiving only the necessary data: will vary case-by-case, ~20-30%
+1. Flexibility of sending and receiving only the necessary data: will vary case-by-case, ~20-30 %
+2. Compressing request, response messages: will vary by compression method, ~15-25 %
